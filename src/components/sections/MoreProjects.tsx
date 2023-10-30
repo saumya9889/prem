@@ -14,7 +14,7 @@ const MoreProjects: FC<MoreProjectsProps> = ({ title, data }) => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5 mt-5 md:p-0">
       <TechStack />
-      <div className="grid bg-cardPrimary gap-6 p-6 shadow-lg">
+      <div className="grid bg-cardPrimary gap-6 p-6 shadow-lg h-[100vh-200px]">
         <div className="text-xl font-medium mt-2 text-zinc-200">{title}</div>
         <div className="grid grid-cols-1 gap-4 rounded-lg">
           <CommingSoon />
